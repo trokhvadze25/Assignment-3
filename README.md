@@ -147,4 +147,11 @@ sample = X_test.iloc[0:1]
 prediction = model.predict(sample)
 
 print("\nPredicted Activity:", le.inverse_transform(prediction))
+
 ```
+
+
+
+**Visualization**
+
+![Activity Label Distribution](Figure_1.png)
